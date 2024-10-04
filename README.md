@@ -10,7 +10,7 @@
 
 - [Homepage](https://simonecarletti.com/code/breadcrumbs-on-rails)
 - [Repository](https://github.com/weppos/breadcrumbs_on_rails)
-- [API Documentation](https://rubydoc.info/gems/breadcrumbs_on_rails)
+- [API Documentation](https://rubydoc.info/gems/breadcrumbs_on_rails)[breadcrumbs.rb](lib%2Fbreadcrumbs_on_rails%2Fbreadcrumbs.rb)
 
 
 ## Requirements
@@ -30,7 +30,7 @@ gem "breadcrumbs_on_rails"
 ```
 
 And then execute `bundle` to install the dependencies:
-
+[breadcrumbs.rb](lib%2Fbreadcrumbs_on_rails%2Fbreadcrumbs.rb)
 ```
 bundle
 ```
@@ -100,7 +100,10 @@ Current possible options are:
 
 - `:separator`
 - `:tag`
+- `:tag_class`
+- `:class`
 
+Class option applies on link and tag_class applies on tag (li for instance)
 To use with Bootstrap you might use the following:
 
 ```html
